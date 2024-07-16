@@ -3,3 +3,4 @@
 [测试接口3](https://github.moeyy.xyz/https://raw.githubusercontent.com/leiyou-li/dzhipy/main/%E5%A2%A8%E9%9F%B5%E6%B5%8B%E8%AF%953.json)
 [测试接口4](https://github.moeyy.xyz/https://raw.githubusercontent.com/leiyou-li/dzhipy/main/%E5%A2%A8%E9%9F%B5%E6%B5%8B%E8%AF%954.json)
 [测试接口5](https://github.moeyy.xyz/https://raw.githubusercontent.com/leiyou-li/dzhipy/main/%E5%A2%A8%E9%9F%B5%E6%B5%8B%E8%AF%955.json)
+[初玩接口](https://github.moeyy.xyz/https://raw.githubusercontent.com/leiyou-li/dzhipy/main/%E6%9C%80%E5%88%9D%E8%80%81%E6%BA%90.json)
