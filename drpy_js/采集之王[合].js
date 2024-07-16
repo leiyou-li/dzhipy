@@ -1,1 +1,450 @@
-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
+/**
+ * 强烈推荐静态分类。可以加快速度!!!
+ * 不建议:
+ * 传参 ?type=url&params=../json/采集.json
+ * 建议：
+ * 传参 ?type=url&params=../json/采集静态.json$1
+ * 传参 ?type=url&params=../json/采集[zy]静态.json$1
+ * 传参 ?type=url&params=../json/采集[密]静态.json$1
+ * hipy-server支持@改名比如:
+ * 传参 ?type=url&params=../json/采集静态.json$1@采王道长[合]
+ * 传参 ?type=url&params=../json/采集[zy]静态.json$1@采王zy[密]
+ * 传参 ?type=url&params=../json/采集[密]静态.json@采王成人[密]
+ * [{"name":"暴风资源","url":"https://bfzyapi.com","parse_url":""},{"name":"飞刀资源","url":"http://www.feidaozy.com","parse_url":""},{"name":"黑木耳资源","url":"https://www.heimuer.tv","parse_url":""}]
+ */
+globalThis.getRandomItem = function (items) {//从列表随机取出一个元素
+    return items[Math.random() * items.length | 0];
+}
+var rule = {
+    title: '采集之王[合]',
+    author: '道长',
+    version: '20240705 beta16',
+    update_info: `
+20240705:
+1.支持传参json后面增加$1 这样的额外标识，用于搜索结果精准匹配
+2.支持传参json后面增加$1$1 这样的额外标识，用于强制获取搜索图片。$1$不显示图片。默认是搜索强制有图片的[已实现详情页请求使用批量]
+3.修复二级数据无序匹配搜索列表图片的问题
+4.修改搜索精准和图片显示额外参数间隔符从#变为$
+20240703:
+1.采集json支持"searchable": 0,用于搜索时排除这个源
+20240604:
+1.首页推荐取消硬控等待。增加随机推荐功能。
+2.首页推荐新增更新日志查看功能
+【特别说明】目前只支持标准json格式的采集站(资源站一般都提供xml和json两种接口，目前没有支持xml的想法，没什么必要)
+有些资源站的json接口不是标准的/api.php/provide/vod/,需要自己在采集静态.json中编辑对应的api属性填写比如:/api.php/provide/vod/at/json/
+有些资源站的采集数据是加密后的切片片段，可能需要采集站特定的解析接口，需要自己编辑json里的parse_url属性
+资源站部分大分类下无数据很正常，可以自行编辑json里cate_exclude属性排除掉自己测试过无数据的分类(小程序无法自动识别，只能人工测好哪些分类无数据)
+`.trim(),
+    host: '',
+    homeTid: '', // 首页推荐。一般填写第一个资源站的想要的推荐分类的id.可以空
+    homeUrl: '/api.php/provide/vod/?ac=detail&t={{rule.homeTid}}',
+    detailUrl: '/api.php/provide/vod/?ac=detail&ids=fyid',
+    searchUrl: '/api.php/provide/vod/?wd=**&pg=#TruePage##page=fypage',
+    classUrl: '/api.php/provide/vod/',
+    url: '/api.php/provide/vod/?ac=detail&pg=fypage&t=fyfilter',
+    filter_url: '{{fl.类型}}',
+    headers: {'User-Agent': 'MOBILE_UA'},
+    timeout: 5000, // class_name: '电影&电视剧&综艺&动漫',
+    limit: 20,
+    search_limit: 5, // 搜索限制取前5个，可以注释掉，就不限制搜索
+    searchable: 1,//是否启用全局搜索,
+    quickSearch: 0,//是否启用快速搜索,
+    filterable: 1,//是否启用分类筛选,
+    play_parse: true,
+    parse_url: '', // 这个参数暂时不起作用。聚合类的每个资源应该有自己独立的解析口。单独配置在采集.json里的parse_url有效
+    search_match: false, // 搜索精准匹配
+    search_pic: true, // 搜索强制需要图片
+    // params: 'http://127.0.0.1:5707/files/json/%E9%87%87%E9%9B%86.json',
+    // params: 'http://127.0.0.1:5707/files/json/采集静态.json$1',
+    // params: 'http://127.0.0.1:5707/files/json/采集[zy]静态.json$1',
+    // hostJs:$js.toString(()=>{
+    //
+    // }),
+    预处理: $js.toString(() => {
+        function getClasses(item) {
+            let classes = [];
+            if (item.class_name && item.class_url) {
+                if (!/&|电影|电视剧|综艺|动漫[\u4E00-\u9FA5]+/.test(item.class_name)) {
+                    try {
+                        item.class_name = ungzip(item.class_name)
+                    } catch (e) {
+                        log(`不识别的class_name导致gzip解码失败:${e}`)
+                        return classes
+                    }
+                }
+                let names = item.class_name.split('&');
+                let urls = item.class_url.split('&');
+                let cnt = Math.min(names.length, urls.length);
+                for (let i = 0; i < cnt; i++) {
+                    classes.push({
+                        'type_id': urls[i],
+                        'type_name': names[i]
+                    });
+                }
+            }
+            return classes
+        }
+
+        if (typeof (batchFetch) === 'function') {
+            // 支持批量请求直接放飞自我。搜索限制最大线程数量16
+            rule.search_limit = 16;
+            log('当前程序支持批量请求[batchFetch],搜索限制已设置为16');
+        }
+        let _url = rule.params;
+        log(`传入参数:${_url}`);
+        if (_url && typeof (_url) === 'string' && /^(http|file)/.test(_url)) {
+            if (_url.includes('$')) {
+                let _url_params = _url.split('$');
+                _url = _url_params[0];
+                rule.search_match = !!(_url_params[1]);
+                if (_url_params.length > 2) { // 强制图片
+                    rule.search_pic = !!(_url_params[2]);
+                }
+            }
+            let html = request(_url);
+            let json = JSON.parse(html);
+            let _classes = [];
+            rule.filter = {};
+            rule.filter_def = {};
+            json.forEach(it => {
+                let _obj = {
+                    type_name: it.name,
+                    type_id: it.url,
+                    parse_url: it.parse_url || '',
+                    searchable: it.searchable !== 0,
+                    api: it.api || '',
+                    cate_exclude: it.cate_exclude || '',
+                    // class_name: it.class_name || '',
+                    // class_url: it.class_url || '',
+                };
+                _classes.push(_obj);
+                try {
+                    let json1 = [];
+                    if (it.class_name && it.class_url) {
+                        json1 = getClasses(it);
+                    } else {
+                        json1 = JSON.parse(request(urljoin(_obj.type_id, _obj.api || rule.classUrl))).class;
+                    }
+                    if (_obj.cate_exclude) {
+                        json1 = json1.filter(cl => !new RegExp(_obj.cate_exclude, 'i').test(cl.type_name));
+                    }
+                    rule.filter[_obj.type_id] = [{
+                        "key": "类型", "name": "类型", "value": json1.map(i => {
+                            return {"n": i.type_name, 'v': i.type_id}
+                        })
+                    }];
+                    if (json1.length > 0) {
+                        rule.filter_def[it.url] = {"类型": json1[0].type_id};
+                    }
+                } catch (e) {
+                    rule.filter[it.url] = [{"key": "类型", "name": "类型", "value": [{"n": "全部", "v": ""}]}];
+                }
+            });
+            rule.classes = _classes;
+        }
+    }),
+    // class_parse: $js.toString(() => {
+    //     let _url = rule.params;
+    //     if (_url && typeof (_url) === 'string' && _url.startsWith('http')) {
+    //         let html = request(_url);
+    //         let json = JSON.parse(html);
+    //         let _classes = [];
+    //         homeObj.filter = {};
+    //         rule.filter_def = {};
+    //         json.forEach(it => {
+    //             let _obj = {
+    //                 type_name: it.name,
+    //                 type_id: it.url,
+    //                 parse_url: it.parse_url || '',
+    //                 cate_exclude: it.cate_exclude || '',
+    //             };
+    //             _classes.push(_obj);
+    //             try {
+    //                 let json1 = JSON.parse(request(urljoin(_obj.type_id, rule.classUrl))).class;
+    //                 if (_obj.cate_exclude) {
+    //                     json1 = json1.filter(cl => !new RegExp(_obj.cate_exclude, 'i').test(cl.type_name));
+    //                 }
+    //                 homeObj.filter[_obj.type_id] = [{
+    //                     "key": "类型", "name": "类型", "value": json1.map(i => {
+    //                         return {"n": i.type_name, 'v': i.type_id}
+    //                     })
+    //                 }];
+    //                 if (json1.length > 0) {
+    //                     rule.filter_def[it.url] = {"类型": json1[0].type_id};
+    //                 }
+    //             } catch (e) {
+    //                 homeObj.filter[it.url] = [{"key": "类型", "name": "类型", "value": [{"n": "全部", "v": ""}]}];
+    //             }
+    //         });
+    //         rule.classes = _classes;
+    //         input = _classes;
+    //     }
+    // }),
+    class_parse: $js.toString(() => {
+        input = rule.classes;
+    }),
+    推荐: $js.toString(() => {
+        let update_info = [{
+            vod_name: '更新日志',
+            vod_id: 'update_info',
+            vod_remarks: `版本:${rule.version}`,
+            vod_pic: 'https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-server/master/app/static/img/logo.png'
+        }];
+        VODS = [];
+        if (rule.classes) {
+            let randomClass = getRandomItem(rule.classes);
+            let _url = urljoin(randomClass.type_id, input);
+            if (randomClass.api) {
+                _url = _url.replace('/api.php/provide/vod/', randomClass.api)
+            }
+            try {
+                let html = request(_url, {timeout: rule.timeout});
+                let json = JSON.parse(html);
+                VODS = json.list;
+                VODS.forEach(it => {
+                    it.vod_id = randomClass.type_id + '$' + it.vod_id;
+                    it.vod_remarks = it.vod_remarks + '|' + randomClass.type_name;
+                });
+            } catch (e) {
+            }
+        }
+        VODS = update_info.concat(VODS);
+    }),
+    一级: $js.toString(() => {
+        VODS = [];
+        if (rule.classes) {
+            // log(input);
+            let _url = urljoin(MY_CATE, input);
+            let current_vod = rule.classes.find(item => item.type_id === MY_CATE);
+            if (current_vod && current_vod.api) {
+                _url = _url.replace('/api.php/provide/vod/', current_vod.api)
+            }
+            let html = request(_url);
+            let json = JSON.parse(html);
+            VODS = json.list;
+            VODS.forEach(it => {
+                it.vod_id = MY_CATE + '$' + it.vod_id
+            });
+        }
+    }),
+    // 一级: 'json:list;vod_name;vod_pic;vod_remarks;vod_id;vod_play_from',
+    二级: $js.toString(() => {
+        VOD = {};
+        if (orId === 'update_info') {
+            VOD = {
+                vod_content: rule.update_info.trim(),
+                vod_name: '更新日志',
+                type_name: '更新日志',
+                vod_pic: 'https://resource-cdn.tuxiaobei.com/video/FtWhs2mewX_7nEuE51_k6zvg6awl.png',
+                vod_remarks: `版本:${rule.version}`,
+                vod_play_from: '道长在线',
+                // vod_play_url: '嗅探播放$https://resource-cdn.tuxiaobei.com/video/10/8f/108fc9d1ac3f69d29a738cdc097c9018.mp4',
+                vod_play_url: '随机小视频$http://api.yujn.cn/api/zzxjj.php',
+            };
+        } else {
+            if (rule.classes) {
+                let _url = urljoin(fyclass, input);
+                let current_vod = rule.classes.find(item => item.type_id === fyclass);
+                if (current_vod && current_vod.api) {
+                    _url = _url.replace('/api.php/provide/vod/', current_vod.api)
+                }
+                let html = request(_url);
+                let json = JSON.parse(html);
+                let data = json.list;
+                VOD = data[0];
+                if (current_vod && current_vod.type_name) {
+                    VOD.vod_play_from = VOD.vod_play_from.split('$$$').map(it => current_vod.type_name + '|' + it).join('$$$')
+                }
+            }
+        }
+    }),
+    搜索: $js.toString(() => {
+        VODS = [];
+        if (rule.classes) {
+            let canSearch = rule.classes.filter(it => it.searchable);
+            let page = Number(MY_PAGE);
+            page = (MY_PAGE - 1) % Math.ceil(canSearch.length / rule.search_limit) + 1;
+            let truePage = Math.ceil(MY_PAGE / Math.ceil(canSearch.length / rule.search_limit));
+            if (rule.search_limit) {
+                let start = (page - 1) * rule.search_limit;
+                let end = page * rule.search_limit;
+                let t1 = new Date().getTime();
+                let searchMode = typeof (batchFetch) === 'function' ? '批量' : '单个';
+                log('start:' + start);
+                log('end:' + end);
+                log('搜索模式:' + searchMode);
+                log('精准搜索:' + rule.search_match);
+                // log('t1:' + t1);
+                if (start < canSearch.length) {
+                    let search_classes = canSearch.slice(start, end);
+                    let urls = [];
+                    search_classes.forEach(it => {
+                        let _url = urljoin(it.type_id, input);
+                        if (it.api) {
+                            _url = _url.replace('/api.php/provide/vod/', it.api)
+                        }
+                        _url = _url.replace("#TruePage#", "" + truePage);
+                        urls.push(_url);
+                    });
+                    let results_list = [];
+                    let results = [];
+                    if (typeof (batchFetch) === 'function') {
+                        let reqUrls = urls.map(it => {
+                            return {
+                                url: it,
+                                options: {timeout: rule.timeout}
+                            }
+                        });
+                        let rets = batchFetch(reqUrls);
+                        let detailUrls = [];
+                        let detailUrlCount = 0;
+                        rets.forEach((ret, idx) => {
+                            let it = search_classes[idx];
+                            if (ret) {
+                                try {
+                                    let json = JSON.parse(ret);
+                                    let data = json.list;
+                                    data.forEach(i => {
+                                        i.site_name = it.type_name;
+                                        i.vod_id = it.type_id + '$' + i.vod_id;
+                                        i.vod_remarks = i.vod_remarks + '|' + it.type_name;
+                                    });
+                                    if (rule.search_match) {
+                                        data = data.filter(item => item.vod_name && (new RegExp(KEY, 'i')).test(item.vod_name))
+                                    }
+                                    if (data.length > 0) {
+                                        if (rule.search_pic && !data[0].vod_pic) {
+                                            log(`当前搜索站点【${it.type_name}】没图片,尝试访问二级去获取图片`);
+                                            let detailUrl = urls[idx].split('wd=')[0] + 'ac=detail&ids=' + data.map(k => k.vod_id.split('$')[1]).join(',');
+                                            detailUrls.push(detailUrl);
+                                            results_list.push({
+                                                data: data,
+                                                has_pic: false,
+                                                detailUrlCount: detailUrlCount
+                                            });
+                                            detailUrlCount++;
+                                            // try {
+                                            //     let detailJson = JSON.parse(request(detailUrl));
+                                            //     data.forEach((d, _seq) => {
+                                            //         log('二级数据列表元素数:' + detailJson.list.length);
+                                            //         let detailVodPic = detailJson.list[_seq].vod_pic;
+                                            //         if (detailVodPic) {
+                                            //             Object.assign(d, {vod_pic: detailVodPic});
+                                            //         }
+                                            //     });
+                                            // } catch (e) {
+                                            //     log(`强制获取网站${it.type_id}的搜索图片失败:${e.message}`);
+                                            // }
+                                        } else {
+                                            results_list.push({data: data, has_pic: true});
+
+                                        }
+                                        // results = results.concat(data);
+                                    }
+                                } catch (e) {
+                                    log(`请求:${it.type_id}发生错误:${e.message}`)
+                                }
+                            }
+                        });
+                        // 构造请求二级的batchFetch列表
+                        let reqUrls2 = detailUrls.map(it => {
+                            return {
+                                url: it,
+                                options: {timeout: rule.timeout}
+                            }
+                        });
+                        let rets2 = batchFetch(reqUrls2);
+                        for (let k = 0; k < results_list.length; k++) {
+                            let result_data = results_list[k].data;
+                            if (!results_list[k].has_pic) {
+                                try {
+                                    let detailJson = JSON.parse(rets2[results_list[k].detailUrlCount]);
+                                    log('二级数据列表元素数:' + detailJson.list.length);
+                                    result_data.forEach((d, _seq) => {
+                                        // let detailVodPic = detailJson.list[_seq].vod_pic;
+                                        // log(detailJson);
+                                        let detailVodPic = detailJson.list.find(vod => vod.vod_id.toString() === d.vod_id.split('$')[1]);
+                                        if (detailVodPic) {
+                                            Object.assign(d, {vod_pic: detailVodPic.vod_pic});
+                                        }
+                                    });
+                                } catch (e) {
+                                    log(`强制获取网站${result_data[0].site_name}的搜索图片失败:${e.message}`);
+                                }
+                            }
+                            results = results.concat(result_data);
+                        }
+
+                    } else {
+                        urls.forEach((_url, idx) => {
+                            let it = search_classes[idx];
+                            try {
+                                let html = request(_url);
+                                let json = JSON.parse(html);
+                                let data = json.list;
+                                data.forEach(i => {
+                                    i.vod_id = it.type_id + '$' + i.vod_id;
+                                    i.vod_remarks = i.vod_remarks + '|' + it.type_name;
+                                });
+                                if (rule.search_match) {
+                                    data = data.filter(item => item.vod_name && (new RegExp(KEY, 'i')).test(item.vod_name))
+                                }
+                                if (data.length > 0) {
+                                    if (rule.search_pic && !data[0].vod_pic) {
+                                        log(`当前搜索站点【${it.type_name}】没图片,尝试访问二级去获取图片`);
+                                        let detailUrl = urls[idx].split('wd=')[0] + 'ac=detail&ids=' + data.map(k => k.vod_id.split('$')[1]).join(',');
+                                        try {
+                                            let detailJson = JSON.parse(request(detailUrl));
+                                            log('二级数据列表元素数:' + detailJson.list.length);
+                                            data.forEach((d, _seq) => {
+                                                // let detailVodPic = detailJson.list[_seq].vod_pic;
+                                                let detailVodPic = detailJson.list.find(vod => vod.vod_id.toString() === d.vod_id.split('$')[1]);
+                                                if (detailVodPic) {
+                                                    Object.assign(d, {vod_pic: detailVodPic.vod_pic});
+                                                }
+                                            });
+                                        } catch (e) {
+                                            log(`强制获取网站${it.type_id}的搜索图片失败:${e.message}`);
+                                        }
+                                    }
+                                    results = results.concat(data);
+                                }
+                                results = results.concat(data);
+                            } catch (e) {
+                                log(`请求:${it.type_id}发生错误:${e.message}`)
+                            }
+                        });
+                    }
+
+                    VODS = results;
+                    let t2 = new Date().getTime();
+                    // log('t2:'+t2);
+                    log(`${searchMode}搜索:${urls.length}个站耗时:${(Number(t2) - Number(t1))}ms`)
+
+                }
+            }
+        }
+    }),
+    lazy: $js.toString(() => {
+        // lazy想办法用对应的parse_url，但是有难度，暂未实现
+        let parse_url = '';
+        if (flag && flag.includes('|')) {
+            let type_name = flag.split('|')[0];
+            let current_vod = rule.classes.find(item => item.type_name === type_name);
+            if (current_vod && current_vod.parse_url) {
+                parse_url = current_vod.parse_url
+            }
+        }
+        if (/\.(m3u8|mp4)/.test(input)) {
+            input = {parse: 0, url: input}
+        } else {
+            if (parse_url.startsWith('json:')) {
+                let purl = parse_url.replace('json:', '') + input;
+                let html = request(purl);
+                input = {parse: 0, url: JSON.parse(html).url}
+            } else {
+                input = parse_url + input;
+            }
+        }
+    }),
+}
